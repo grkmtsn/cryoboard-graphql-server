@@ -5,7 +5,7 @@
 	"main": "server.js",
 	"scripts": {
 		"server": "nodemon --exec babel-node server.js",
-		"deploy": "forever start --minUptime 2000 --spinSleepTime 5 server.js"
+		"deploy": "pm2 start server.js"
 	},
 	"author": "Görkem Tosun",
 	"license": "MIT",
