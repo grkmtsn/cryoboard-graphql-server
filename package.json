@@ -4,8 +4,7 @@
 	"description": "Cyroboard GraphQL Server",
 	"main": "server.js",
 	"scripts": {
-		"server": "nodemon --exec babel-node server.js",
-		"deploy": "pm2 start server.js"
+		"server": "babel-node server.js"
 	},
 	"author": "Görkem Tosun",
 	"license": "MIT",
